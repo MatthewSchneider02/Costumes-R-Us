@@ -42,6 +42,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Angular
+angular-*\
+.angular*
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
