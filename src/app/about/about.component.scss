@@ -2,10 +2,8 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #e61717;
+	background-color: #f2f2f2;
 }
-
-
 
 header {
 	background-color: #333;
@@ -75,3 +73,35 @@ footer {
 	padding: 20px;
 	text-align: center;
 }
+.search-form {
+	display: flex;
+	align-items: center;
+  }
+  
+  /* Style the input field */
+.search-input {
+	padding: 8px;
+	border: none;
+	border-radius: 20px;
+	outline: none;
+	font-size: 16px;
+	background-color: #f2f2f2;
+	width: 200px;
+  }
+  
+  /* Style the search button */
+.search-button {
+	padding: 8px;
+	border: none;
+	border-radius: 20px;
+	margin-left: 5px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #333;
+	cursor: pointer;
+  }
+  
+  /* Style the search button on hover */
+.search-button:hover {
+	background-color: #555;
+  }
